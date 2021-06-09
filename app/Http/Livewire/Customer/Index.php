@@ -18,7 +18,7 @@ class Index extends Component
 
     public function render()
     {
-        $model = Customer::where('firstname', 'like', '%' . $this->search . '%')->orWhere('lastname', 'like', '%' . $this->search . '%');
+        $model = Customer::withCount('rentals')->where('firstname', 'like', '%' . $this->search . '%')->orWhere('lastname', 'like', '%' . $this->search . '%');
         return view('livewire.customer.index', [
             'model' => $model->paginate(10),
         ]);

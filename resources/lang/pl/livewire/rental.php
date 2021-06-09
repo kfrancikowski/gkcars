@@ -8,7 +8,7 @@ return [
     'save' => 'Zapisz wypożyczenie',
     'rent_start_date' => 'Data rozpoczęcia wynajmu',
     'rent_end_date' => 'Data zakończenia wynajmu',
-    'not_found' => 'Nie znaleziono klienta',
+    'not_found' => 'Nie znaleziono klienta ani samochodu',
     'select_customer' => 'Wybierz klienta',
     'select_car' => "Wybierz samochód",
     'successfully_created' => 'Wynajem pomyślnie utworzony',

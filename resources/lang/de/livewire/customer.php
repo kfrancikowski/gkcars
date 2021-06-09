@@ -11,9 +11,10 @@ return [
     'lastname' => 'Nachname des Kunden',
     'email' => 'Kunden-eMail',
     'successfully_created' => 'Kunde erfolgreich erstellt',
-    'show_rentals' => '',
+    'show_rentals' => 'Mietobjekte anzeigen',
     'name_rentals' => ':name vermietungen',
     'no_history' => 'Dieser Kunde vermietet noch keine Autos.',
     'not_returned' => 'Nicht zurückgegeben',
-    'customers' => 'Kunden'
+    'customers' => 'Kunden',
+    'rentals_count' => 'Anzahl der Vermietungen'
 ];

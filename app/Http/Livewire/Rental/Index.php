@@ -21,6 +21,8 @@ class Index extends Component
     {
         $model = Rental::with(['car', 'customer'])->whereHas('customer', function (Builder $query){
             $query->where('firstname', 'like', '%' . $this->search . '%')->orWhere('lastname', 'like', '%' . $this->search . '%');
+        })->orWhereHas('car', function(Builder $query){
+            $query->where('name', 'like', '%' . $this->search . '%');
         });
         
         return view('livewire.rental.index', [

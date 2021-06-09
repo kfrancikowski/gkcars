@@ -29,10 +29,22 @@ Route::middleware(['auth', 'i18n'])->group(function () {
     })->name('dashboard');
 
     // FRONTEND RESOURCE CONTROLLERS
-    Route::resource('users', UserController::class);
-    Route::resource('customers', CustomerController::class);
-    Route::resource('cars', CarController::class);
-    Route::resource('rentals', RentalController::class);
+    // USERS SECTION
+    Route::get('/users', App\Http\Livewire\User\Index::class)->name('users.index');
+    Route::get('/users/create', App\Http\Livewire\User\Create::class)->name('users.create');
+
+    // CUSTOMERS SECTION
+    Route::get('/customers', App\Http\Livewire\Customer\Index::class)->name('customers.index');
+    Route::get('/customers/create', App\Http\Livewire\Customer\Create::class)->name('customers.create');
+    Route::get('/customers/{id}', App\Http\Livewire\Customer\Show::class)->name('customers.show');
+
+    // CARS SECTION
+    Route::get('/cars', App\Http\Livewire\Car\Index::class)->name('cars.index');
+    Route::get('/cars/create', App\Http\Livewire\Car\Create::class)->name('cars.create');
+
+    // RENTALS SECTION
+    Route::get('/rentals', App\Http\Livewire\Rental\Index::class)->name('rentals.index');
+    Route::get('/rentals/create', App\Http\Livewire\Rental\Create::class)->name('rentals.create');
 });
 
 // DEFAULT LARAVEL AUTH ROUTES
