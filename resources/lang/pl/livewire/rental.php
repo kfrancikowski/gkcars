@@ -12,4 +12,5 @@ return [
     'select_customer' => 'Wybierz klienta',
     'select_car' => "Wybierz samochód",
     'successfully_created' => 'Wynajem pomyślnie utworzony',
+    'rentals' => 'Wypożyczenia'
 ];

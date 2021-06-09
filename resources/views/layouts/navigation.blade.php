@@ -18,22 +18,22 @@
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('customers.index')" :active="request()->routeIs('customers.index')">
-                        {{ __('Customers') }}
+                        {{ __('livewire\customers.customers') }}
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('cars.index')" :active="request()->routeIs('cars.index')">
-                        {{ __('Cars') }}
+                        {{ __('livewire\cars.cars') }}
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('rentals.index')" :active="request()->routeIs('rentals.index')">
-                        {{ __('Rentals') }}
+                        {{ __('livewire\rentals.rentals') }}
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('users.index')" :active="request()->routeIs('users.index')">
-                        {{ __('Users') }}
+                        {{ __('livewire\rentals.rentals') }}
                     </x-nav-link>
                 </div>
             </div>

@@ -9,5 +9,6 @@ return [
     'firstname' => 'Vorname des Benutzers',
     'lastname' => 'Nachname des Benutzers',
     'save' => 'Benutzer speichern',
-    'successfully_created' => 'Benutzer erfolgreich erstellt'
+    'successfully_created' => 'Benutzer erfolgreich erstellt',
+    'users' => 'Benutzer'
 ];

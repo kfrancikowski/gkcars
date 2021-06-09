@@ -14,5 +14,6 @@ return [
     'show_rentals' => 'Pokaż wypożyczenia',
     'name_rentals' => 'Wypożyczenia :name',
     'no_history' => 'Ten klient nie wynajmował jeszcze żadnych samochodów.',
-    'not_returned' => 'Nie zwrócono'
+    'not_returned' => 'Nie zwrócono',
+    'customers' => 'Klienci'
 ];

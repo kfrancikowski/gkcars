@@ -7,4 +7,5 @@ return [
     'not_found' => 'Auto nicht gefunden',
     'save' => 'Auto sparen',
     'successfully_created' => 'Auto erfolgreich erstellt',
+    'cars' => 'Autos'
 ];

@@ -12,4 +12,5 @@ return [
     'select_customer' => 'Kunden auswählen',
     'select_car' => "Auto auswählen",
     'successfully_created' => 'Vermietung erfolgreich erstellt',
+    'rentals' => 'Vermietungen'
 ];

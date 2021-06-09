@@ -14,5 +14,6 @@ return [
     'show_rentals' => '',
     'name_rentals' => ':name vermietungen',
     'no_history' => 'Dieser Kunde vermietet noch keine Autos.',
-    'not_returned' => 'Nicht zurückgegeben'
+    'not_returned' => 'Nicht zurückgegeben',
+    'customers' => 'Kunden'
 ];

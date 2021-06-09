@@ -10,6 +10,6 @@ return [
     'firstname' => 'User firstname',
     'lastname' => 'User lastname',
     'save' => 'Save user',
-    'successfuly_created' => 'User successfuly created'
-    
+    'successfuly_created' => 'User successfuly created',
+    'users' => 'Users'
 ];

@@ -14,5 +14,6 @@ return [
     'show_rentals' => 'Show rentals',
     'name_rentals' => ':name rentals',
     'no_history' => 'This customer doesn\'t rent any cars yet.',
-    'not_returned' => 'Not returned'
+    'not_returned' => 'Not returned',
+    'customers' => 'Customers'
 ];

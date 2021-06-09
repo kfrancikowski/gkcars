@@ -13,4 +13,5 @@ return [
     'select_customer' => 'Select customer',
     'select_car' => "Select car",
     'successfully_created' => 'Rental successfuly created',
+    'rentals' => 'Rentals'
 ];
